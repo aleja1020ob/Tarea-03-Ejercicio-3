@@ -1,0 +1,78 @@
+/* pseudoclass*/
+*{
+  
+    background-color: rgb(233, 202, 190);
+    margin-left: 2vh;
+    margin-right: 2vh;
+  }
+  .mus h3:hover{
+    background-color:  rgb(230, 14, 122);
+    font-size: 7vh;
+  
+  }
+  h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+  }
+  
+  
+  .mus h3{
+  font-size: 4vh;
+  margin-left: 80vh;
+  margin-right: 80vh;
+  
+  }
+  
+  .his h3:hover{
+    background-color: coral;
+    margin-top: 3vh;
+    font-size: 5vh;
+  }
+  .bene h3:hover{
+    background-color: coral;
+    margin-top: 3vh;
+    font-size: 5vh;
+  }
+  a :active{
+    color: rgb(230, 14, 122);
+    font-weight: bold;
+  
+    }
+    .grupo .correo:valid{
+      background-color: rgb(238, 148, 116);
+      width: 50vh;
+      color: rgb(182, 126, 137);
+      color: black;
+  
+    }
+   .grupo .correo:invalid{
+  
+    background-color: rgb(250, 68, 168);
+    width: 50vh;
+   }
+  .grupo{
+    margin-bottom: 10vh;
+  margin-left: 30vh;
+  }
+  etiqueta{
+    color: rgba(247, 80, 19, 0.829);
+    font-size: 3vh;
+    text-align: justify;
+  }
+  
+    /* no se por que el link de a pagina no me lleva a ningun lado  pero lo agg para hacer el ejercicio */
+  /*pseudoelemoento*/
+  
+.bene p::before{
+content: "en este parrafo vas a encontrar los benieficios de escuchar musica y una cancion relajante : ";
+color: blue;
+font-size: 3vh;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mus p::after{
+    content: "la musica es una de las cosas que conforman nuestra vida diaria por eso se me hace tan inportante ver el alcase que tiene en nuestras vida como en la emiciones en nuestro estado de ani en como nos uede ayudar a relajarnos y de la misma manera de como nos puede deprimir  ";
+color: blue;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 3vh;
+}
